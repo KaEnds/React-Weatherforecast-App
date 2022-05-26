@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+.navbar-layout{
+    background-color: #045;
+    color: white;
+    display: flex;
+    padding: 5px 30px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    gap: 20px;
+    z-index: 3;
+}
+
+.navbar-layout .logo{
+    font-family: 'Koulen', cursive;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.icon-group{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}

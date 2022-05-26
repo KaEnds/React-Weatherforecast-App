@@ -1,0 +1,18 @@
+.menubar{
+    font-size: 20px;
+    font-family: 'Koulen', cursive;
+}
+
+.menubar a:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: #fa0;
+}
+
+
+
+.menu-layout{
+    text-align: start;
+    padding: 10px 40px;
+}

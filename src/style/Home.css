@@ -1,0 +1,59 @@
+
+
+.flag{
+    width: 100px;
+}
+
+.selectCountry{
+    width: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selectBar{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    text-align: center;
+    gap: 10%;
+}
+
+.Home{
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.serachbar{
+    border: 1px solid rgb(188, 184, 184);
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 20px;
+    padding: 0 15px;
+}
+
+.Home form{
+    float: left;
+    margin-bottom: 40px;
+    width: 100%;
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+}
+
+.Home form input{
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.searchbotton{
+    padding: 5px;
+    border-radius: 3px;
+    border-radius: 1px solid rgb(202, 202, 202);
+    background-color: #fd1;
+
+}
+
+.country{
+    font-size: 25px;
+}
+

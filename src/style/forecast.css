@@ -1,0 +1,53 @@
+.forecast-contain {
+    font-family: 'Roboto Flex', sans-serif;
+} 
+
+.slider-Arrow{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 280px;
+    width: 50px;
+    opacity: 0.5;
+    z-index: 5;
+    cursor: pointer;
+    
+
+}
+.slider-Arrow svg{
+    width: 2.5em;
+    height: 2.5em;
+    display: none;
+    color: black;
+}
+
+.slider-Arrow.right{
+    right: 0;
+}
+
+.slider-Arrow:hover{
+    background-color: rgb(217, 213, 213);
+    transition: 0.2s;
+}
+
+.slider-Arrow:hover *{
+    display: block;
+    transition: 0.2s;
+}
+
+
+.main-contain{
+    position: relative;
+}
+
+.slider-box{
+    position: absolute;
+}
+
+.slider-box *{
+    user-select: none;
+}
+
+.small-text{
+    font-size: 30px;
+}
