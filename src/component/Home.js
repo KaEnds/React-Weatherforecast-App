@@ -25,7 +25,7 @@ import { Footer } from './Footer.js'
 
 
 function Home() {
-  const [weather, air] = useSelector(state => [state.data, state.airQual.aqi])
+  const [weather] = useSelector(state => [state.data])
 
   const text = useRef('')
   const dispatch = useDispatch()
@@ -86,8 +86,8 @@ function Home() {
                 </Box>
                 <Box width={'50%'} textAlign='end' marginLeft={'200px'}>
                   <Box paddingTop='40px' textAlign={'center'} >
-                    <Text fontSize={'3xl'}>{Airindex(air.aqi)[0]}</Text>
-                    <Link to='#'><Button  colorScheme={Airindex(air.aqi)[1]} size='sm'>Air quality &nbsp;<span><BsBoxArrowUpRight /></span></Button></Link>
+                    <Text fontSize={'3xl'}>{Airindex(2)[0]}</Text>
+                    <Link to='#'><Button  colorScheme={Airindex(2)[1]} size='sm'>Air quality &nbsp;<span><BsBoxArrowUpRight /></span></Button></Link>
                   </Box>
                 </Box>
               </Box>

@@ -35,14 +35,14 @@ function App() {
     .then(response => response.json())
     .then(response => dispatch(applyData(containData(waitingData(response)))))
 
-    dispatch(requestData())
-    fetch(url.air.url)
-    .then(response => response.json())
-    .then(data => dispatch(requestSuccess(data)))
+    // dispatch(requestData())
+    // fetch(url.air.url)
+    // .then(response => response.json())
+    // .then(data => dispatch(requestSuccess(data)))
 
-    fetch(`http://api.openweathermap.org/data/2.5/air_pollution/history?lat=16.41984&lon=101.157829&start=1606688670&end=1606747870&appid=9693a844b6237a1d186b6ae4226e0598`)
-    .then(response => response.json())
-    .then(data => dispatch(getairqual(data)))
+    // fetch(`http://api.openweathermap.org/data/2.5/air_pollution/history?lat=16.41984&lon=101.157829&start=1606688670&end=1606747870&appid=9693a844b6237a1d186b6ae4226e0598`)
+    // .then(response => response.json())
+    // .then(data => dispatch(getairqual(data)))
     
   }, [url.searchCount])
   
