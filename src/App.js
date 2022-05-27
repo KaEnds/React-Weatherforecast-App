@@ -25,7 +25,7 @@ const options1 = {
 
 function App() {
 
-  const Time = new Date().getTime()
+  // const Time = new Date().getTime()
   const dispatch = useDispatch()
   const [url] = useSelector(state => [state.searchURL])
   

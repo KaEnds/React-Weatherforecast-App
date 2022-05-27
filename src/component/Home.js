@@ -14,7 +14,7 @@ import { useSelector, useDispatch } from "react-redux"
 import {  serachAction } from '../action/searchAction'
 import GooglemapPage from "./GooglemapPage";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-import { LatLong } from "../action/searchAction";
+// import { LatLong } from "../action/searchAction";
 import { Airindex } from "../function/Airindex.js";
 import { detect } from "../function/detectTXT.js";
 import {Link} from 'react-router-dom'
