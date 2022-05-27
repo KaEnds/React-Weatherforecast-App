@@ -1,5 +1,5 @@
 # Weather forecast Application
-## weather map credit : https://www.ventusky.com/?p=4;-28;2&l=temperature-2m
+## weather map credit : https://www.ventusky.com/
 
 View project : https://kaends.github.io/React-Weatherforecast-App/
 
